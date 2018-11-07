@@ -14,11 +14,15 @@ public class Main {
         //Arrays
         String[] commands = {"yes", "no", "help"};
         String[] orders = {"help", "cola", "fanta", "water", "7up"};
+        String[] food = {"help", "twix", "milka", "oreo", "kitkat", "bueno"};
 
         //String
         String Drinks = "What would you like to drink?";
         String MainQuestion = "Would you like something to drink? Type: ";
         String DrinksWhat = "So what would you like to drink?";
+        String FoodQuestion = "Would you like something to eat?";
+        String Food= "What would you like to eat?";
+        String FoodWhat= "So what would you like to eat?";
 
 
         while (running) //running == true
@@ -164,7 +168,21 @@ public class Main {
 
                 } else if (input.equals(commands[1])) {
                     geldigeInput = true;
-                    System.out.println("Exiting");
+                    System.out.println(FoodQuestion);
+
+                    boolean foodOrder = false;
+                    while (foodOrder == false) {
+                        input = scan.nextLine();
+                        input = input.toLowerCase();
+                        if (input.equals(commands[0])) {
+                            foodOrder = true;
+                            System.out.println("NULL");
+                            System.out.println(FoodWhat);
+                        } else if (input.equals(food[1])) {
+                            System.out.println("Here is your " + input);
+
+                        }
+                    }
 
 
 
@@ -175,7 +193,6 @@ public class Main {
 
 
                 }
-                continue;
 
 
             }
