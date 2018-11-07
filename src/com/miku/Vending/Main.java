@@ -18,9 +18,10 @@ public class Main {
         //String
         String Drinks = "What would you like to drink?";
         String MainQuestion = "Would you like something to drink? Type: ";
+        String DrinksWhat = "So what would you like to drink?";
 
 
-        while (running) //VendingMachine == true
+        while (running) //running == true
         {
 
             System.out.println(MainQuestion);
@@ -67,6 +68,7 @@ public class Main {
                 if (input.equals(orders[0])) {
                     order = false;
                     System.out.println(Arrays.toString(orders));
+                    System.out.println(DrinksWhat);
 
 
                 } else if (input.equals(orders[1])) {
