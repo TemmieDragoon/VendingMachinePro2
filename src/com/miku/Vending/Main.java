@@ -190,12 +190,13 @@ public class Main {
 
                                 } else if (input.equals(food[1])) {
                                     System.out.println("Here is your " + input);
-                                    System.out.println(".___________.____    __    ____  __  ___   ___ \n" +
-                                            "|           |\\   \\  /  \\  /   / |  | \\  \\ /  / \n" +
-                                            "`---|  |----` \\   \\/    \\/   /  |  |  \\  V  /  \n" +
-                                            "    |  |       \\            /   |  |   >   <   \n" +
-                                            "    |  |        \\    /\\    /    |  |  /  .  \\  \n" +
-                                            "    |__|         \\__/  \\__/     |__| /__/ \\__\\ ");
+                                    System.out.println("#######                 \n" +
+                                            "   #    #    # # #    # \n" +
+                                            "   #    #    # #  #  #  \n" +
+                                            "   #    #    # #   ##   \n" +
+                                            "   #    # ## # #   ##   \n" +
+                                            "   #    ##  ## #  #  #  \n" +
+                                            "   #    #    # # #    # ");
                                     foodOrder = true;
                                     order = true;
                                     running = false;
@@ -203,13 +204,13 @@ public class Main {
                                 }
                                 else if (input.equals(food[2])) {
                                     System.out.println("Here is your " + input);
-                                    System.out.println(".___  ___.  __   __       __  ___      ___      \n" +
-                                            "|   \\/   | |  | |  |     |  |/  /     /   \\     \n" +
-                                            "|  \\  /  | |  | |  |     |  '  /     /  ^  \\    \n" +
-                                            "|  |\\/|  | |  | |  |     |    <     /  /_\\  \\   \n" +
-                                            "|  |  |  | |  | |  `----.|  .  \\   /  _____  \\  \n" +
-                                            "|__|  |__| |__| |_______||__|\\__\\ /__/     \\__\\ \n" +
-                                            "                                                ");
+                                    System.out.println("#     #                        \n" +
+                                            "##   ## # #      #    #   ##   \n" +
+                                            "# # # # # #      #   #   #  #  \n" +
+                                            "#  #  # # #      ####   #    # \n" +
+                                            "#     # # #      #  #   ###### \n" +
+                                            "#     # # #      #   #  #    # \n" +
+                                            "#     # # ###### #    # #    #");
                                     foodOrder = true;
                                     order = true;
                                     running = false;
@@ -217,13 +218,12 @@ public class Main {
                                 }
                                 else if (input.equals(food[3])) {
                                     System.out.println("Here is your " + input);
-                                    System.out.println("  ______   .______       _______   ______   \n" +
-                                            " /  __  \\  |   _  \\     |   ____| /  __  \\  \n" +
-                                            "|  |  |  | |  |_)  |    |  |__   |  |  |  | \n" +
-                                            "|  |  |  | |      /     |   __|  |  |  |  | \n" +
-                                            "|  `--'  | |  |\\  \\----.|  |____ |  `--'  | \n" +
-                                            " \\______/  | _| `._____||_______| \\______/  \n" +
-                                            "                                            ");
+                                    System.out.println(" ####  #####  ######  ####  \n" +
+                                            "#    # #    # #      #    # \n" +
+                                            "#    # #    # #####  #    # \n" +
+                                            "#    # #####  #      #    # \n" +
+                                            "#    # #   #  #      #    # \n" +
+                                            " ####  #    # ######  ####  ");
                                     foodOrder = true;
                                     order = true;
                                     running = false;
@@ -231,12 +231,12 @@ public class Main {
                                 }
                                 else if (input.equals(food[4])) {
                                     System.out.println("Here is your " + input);
-                                    System.out.println(" __  ___  __  .___________. __  ___      ___   .___________.\n" +
-                                            "|  |/  / |  | |           ||  |/  /     /   \\  |           |\n" +
-                                            "|  '  /  |  | `---|  |----`|  '  /     /  ^  \\ `---|  |----`\n" +
-                                            "|    <   |  |     |  |     |    <     /  /_\\  \\    |  |     \n" +
-                                            "|  .  \\  |  |     |  |     |  .  \\   /  _____  \\   |  |     \n" +
-                                            "|__|\\__\\ |__|     |__|     |__|\\__\\ /__/     \\__\\  |__|    ");
+                                    System.out.println("#    # # ##### #    #   ##   ##### \n" +
+                                            "#   #  #   #   #   #   #  #    #   \n" +
+                                            "####   #   #   ####   #    #   #   \n" +
+                                            "#  #   #   #   #  #   ######   #   \n" +
+                                            "#   #  #   #   #   #  #    #   #   \n" +
+                                            "#    # #   #   #    # #    #   #");
                                     foodOrder = true;
                                     order = true;
                                     running = false;
@@ -244,12 +244,12 @@ public class Main {
                                 }
                                 else if (input.equals(food[5])) {
                                     System.out.println("Here is your " + input);
-                                    System.out.println(".______    __    __   _______ .__   __.   ______   \n" +
-                                            "|   _  \\  |  |  |  | |   ____||  \\ |  |  /  __  \\  \n" +
-                                            "|  |_)  | |  |  |  | |  |__   |   \\|  | |  |  |  | \n" +
-                                            "|   _  <  |  |  |  | |   __|  |  . `  | |  |  |  | \n" +
-                                            "|  |_)  | |  `--'  | |  |____ |  |\\   | |  `--'  | \n" +
-                                            "|______/   \\______/  |_______||__| \\__|  \\______/ ");
+                                    System.out.println("#####  #    # ###### #    #  ####  \n" +
+                                            "#    # #    # #      ##   # #    # \n" +
+                                            "#####  #    # #####  # #  # #    # \n" +
+                                            "#    # #    # #      #  # # #    # \n" +
+                                            "#    # #    # #      #   ## #    # \n" +
+                                            "#####   ####  ###### #    #  ####  ");
                                     foodOrder = true;
                                     order = true;
                                     running = false;
