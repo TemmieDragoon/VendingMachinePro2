@@ -260,6 +260,7 @@ public class Main {
 
                         } else if (input.equals(commands[2])) {
                             System.out.println(Arrays.toString(commands));
+                            System.out.println(SoFood);
                             geldigeInput = false;
 
 
