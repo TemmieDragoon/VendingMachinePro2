@@ -1,1 +1,1 @@
-**BY ACCEPTING THE USER AGREEMENT YOU ACCEPTED THAT YOUR SOUL IS SOLD TO THE DEVIL**
+**By accepting the USER AGREEMENT you are okay with me showing this exercise.**
