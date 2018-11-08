@@ -21,8 +21,9 @@ public class Main {
         String MainQuestion = "Would you like something to drink? Type: ";
         String DrinksWhat = "So what would you like to drink?";
         String FoodQuestion = "Would you like something to eat?";
-        String Food= "What would you like to eat?";
-        String FoodWhat= "So what would you like to eat?";
+        String SoFood = "So would you like something to drink?";
+        String Food = "What would you like to eat?";
+        String FoodWhat = "So what would you like to eat?";
 
 
         while (running) //running == true
@@ -175,28 +176,72 @@ public class Main {
                         input = scan.nextLine();
                         input = input.toLowerCase();
                         if (input.equals(commands[0])) {
+                            System.out.println(Food);
+
+                            boolean order = false;
+                            while (order == false) {
+                                input = scan.nextLine();
+                                input = input.toLowerCase();
+
+                                if (input.equals(orders[0])) {
+                                    order = false;
+                                    System.out.println(Arrays.toString(food));
+                                    System.out.println(FoodWhat);
+
+                                } else if (input.equals(food[1])) {
+                                    System.out.println("Here is your " + input);
+                                    foodOrder = true;
+                                    order = true;
+                                    running = false;
+
+                                }
+                                else if (input.equals(food[2])) {
+                                    System.out.println("Here is your " + input);
+                                    foodOrder = true;
+                                    order = true;
+                                    running = false;
+
+                                }
+                                else if (input.equals(food[3])) {
+                                    System.out.println("Here is your " + input);
+                                    foodOrder = true;
+                                    order = true;
+                                    running = false;
+
+                                }
+                                else if (input.equals(food[4])) {
+                                    System.out.println("Here is your " + input);
+                                    foodOrder = true;
+                                    order = true;
+                                    running = false;
+
+                                }
+                                else if (input.equals(food[5])) {
+                                    System.out.println("Here is your " + input);
+                                    foodOrder = true;
+                                    order = true;
+                                    running = false;
+
+                                }
+                            }
+
+
+                        } else if (input.equals(commands[2])) {
+                            System.out.println(Arrays.toString(commands));
+                            geldigeInput = false;
+
+
+                        } else if (input.equals(commands[1])) {
+                            System.out.println("Shutting down.");
                             foodOrder = true;
-                            System.out.println("NULL");
-                            System.out.println(FoodWhat);
-                        } else if (input.equals(food[1])) {
-                            System.out.println("Here is your " + input);
+                            running = false;
+
 
                         }
+
                     }
-
-
-
-
-                } else if (input.equals(commands[2])) {
-                    System.out.println(Arrays.toString(commands));
-                    geldigeInput = false;
-
-
                 }
-
-
             }
-
         }
     }
 }
