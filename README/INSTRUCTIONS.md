@@ -8,8 +8,7 @@ everything we have learned with Java so far."
 ___
 **Instructions**
 ___
-First Question: "The machine asks you if you want a drink. You can awnser this with yes and no.
-If you don't know what you have to type you can type help."
+First Question: "The machine asks you if you want a drink. You can awnser this with yes and no."
 
 Second Question(If you chose **YES** in the first question): "The machine asks you what you want as a drink.
 To see what you can order type: **HELP**. When you choose your drink it wil print a message and show you ASCII art of the drink."

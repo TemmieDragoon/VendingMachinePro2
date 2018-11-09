@@ -15,6 +15,7 @@ public class Main {
         String[] commands = {"yes", "no", "help"};
         String[] orders = {"help", "cola", "fanta", "water", "7up"};
         String[] food = {"help", "twix", "milka", "oreo", "kitkat", "bueno"};
+        String[] command = {"yes", "no"};
 
         //String
         String Drinks = "What would you like to drink?";
@@ -31,8 +32,8 @@ public class Main {
 
             System.out.println(MainQuestion);
 
-            for (int i = 0; i < commands.length; i++) {
-                System.out.println(" - " + commands[i]);
+            for (int i = 0; i < command.length; i++) {
+                System.out.println(" - " + command[i]);
             }
 
             //INPUT CONTROL:
@@ -72,7 +73,7 @@ public class Main {
                                     "]88,          _,,aaaaaa,_       I88 8\"  8 ]P'  .d' 88 88' ,8' I[\n" +
                                     "`888a,.  ,aadd88888888888bma.   )88,  ,]I I8, .d' )88a8B ,d8 aI\n" +
                                     "  \"888888PP\"'        `8\"\"\"\"\"\"8   \"888PP'  `888P'  `88P\"88P\"8m\"");
-                            running = false;
+
 
 
                         } else if (input.equals(orders[2])) {
